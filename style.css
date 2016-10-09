@@ -112,6 +112,12 @@ article.post:last-of-type{
 	float: left;	/*flush left */
 }
 
+/* page layout */
+
+article.page h2{
+	font-size: 200%;
+}
+
 
 
 
