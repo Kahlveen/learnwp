@@ -140,7 +140,20 @@ div.text-column{
 	float: right;
 }
 
+/* Info-boy style */
+div.info-box {
+	width: 30%;
+	background-color: #EEE;
+	float: right;
+	margin: 0 0 30px 30px;		/* top, right, bottom, left*/
+	padding: 20px;
+}
 
+div.info-box h4 {
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
 
-
-
+div.info-box p {
+	font-size: 85%;
+}
