@@ -18,6 +18,12 @@
 			<h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
 			<h5><?php bloginfo('description'); ?></h5>
 
+			<!-- To get page name, check the name of the url -->
+			<?php if(!is_page('about')) { ?>
+				<h1>This is about the is_page</h1>
+			
+			<?php } ?>
+
 			<nav class="site-nav">
 				<?php
 					$args = array(
